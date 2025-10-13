@@ -83,7 +83,7 @@ const Home = () => {
 
   return (
     <>
-      <HeroSection />
+      <HeroSection className="mt-30" />
       <AboutSection />
       <ServicesSection />
       <SetUpSection />
