@@ -1,5 +1,5 @@
 import { Facebook, Twitter, Linkedin, Instagram, Send, MessageCircle } from "lucide-react";
-import logo from "../assets/kklogo.jpeg";
+import logo from "../assets/KKlogo2.jpg";
 
 export default function Footer() {
   // Replace this number with KK Construction’s WhatsApp business number
@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <img src={logo} alt="KK Construction Logo" className="bg-orange-500 w-10 h-10 rounded-full" />
               <h3 className="font-bold text-2xl">
-                KK Construction<span className="text-orange-500">.</span>
+                KK Construction<span className="text-orange-500"></span>
               </h3>
             </div>
             <p className="text-sm text-gray-300 mb-6 leading-relaxed">

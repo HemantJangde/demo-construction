@@ -10,7 +10,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import Logo from "../assets/kklogo.jpeg";
+import Logo from "../assets/KKlogo2.jpg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
