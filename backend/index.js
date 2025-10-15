@@ -16,11 +16,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ Allow frontend (adjust port if needed)
 app.use(
-  cors({
-    origin: "http://localhost:5173", // your frontend Vite dev server URL
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
+  cors()
 );
 
 app.use(express.json());
